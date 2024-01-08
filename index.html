@@ -4,66 +4,26 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/x-icon" href="images/jesu.png" />
-    <title>Jesuchris' Personal Site</title>
+    <title>Jesuchris Manlapaz</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-emerald-500">
-    <nav class="border-gray-200 dark:bg-gray-900">
-      <div class="max-w-screen-xl flex flex-wrap items-center justify-end mx-auto p-4">
-        <button
-          data-collapse-toggle="navbar-default"
-          type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-default"
-          aria-expanded="false"
-        >
-          <span class="sr-only">Open main menu</span>
-          <svg
-            class="w-5 h-5"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 17 14"
-          >
-            <path
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M1 1h15M1 7h15M1 13h15"
-            />
-          </svg>
-        </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
-          >
+  <body class="bg-emerald-600">
+    <nav>
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-4">
+        <div class="w-full md:block md:w-auto" id="navbar-default">
+          <ul class="font-medium flex p-4 mt-4 gap-4 justify-around">
             <li>
               <a
-                href="#"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Experience</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="/projects.html"
+                class="block py-2 px-3 text-emerald-100 drop-shadow-lg rounded md:border-0 md:p-0"
                 >Projects</a
               >
             </li>
             <li>
               <a
-                href="#"
-                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                href="/contact.html"
+                class="block py-2 px-3 text-emerald-100 drop-shadow-lg rounded md:border-0 md:p-0"
                 >Contact</a
               >
             </li>
@@ -157,18 +117,19 @@
             <div>
               <h3 class="text-sm text-white">Tech Stack</h3>
               <div class="flex gap-1.5 mt-1">
-                <span class="rounded-full py-1 px-3 bg-red-600 text-white">Laravel</span
-                ><span class="rounded-full py-1 px-3 bg-emerald-700 text-white">Vue</span
-                ><span class="rounded-full py-1 px-3 bg-lime-700 text-white">Node.js</span
-                ><span class="rounded-full py-1 px-3 bg-white text-gray-600">Element.UI </span
-                ><span class="rounded-full py-1 px-3 bg-white text-gray-600">Socket.io </span>
+                <span class="rounded-full py-1 px-3 bg-red-600 text-white text-xs font-semibold"
+                  >Laravel</span
+                ><span
+                  class="rounded-full py-1 px-3 bg-emerald-700 text-white text-xs font-semibold"
+                  >Vue</span
+                ><span class="rounded-full py-1 px-3 bg-lime-700 text-white text-xs font-semibold"
+                  >Node.js</span
+                ><span class="rounded-full py-1 px-3 bg-white text-gray-600 text-xs font-semibold"
+                  >Element.UI </span
+                ><span class="rounded-full py-1 px-3 bg-white text-gray-600 text-xs font-semibold"
+                  >Socket.io
+                </span>
               </div>
-            </div>
-            <h3 class="text-sm text-white">Preview</h3>
-            <div class="flex gap-1.5 overflow-x-scroll rounded w-full">
-              <img src="images/GlimpAI_1.jpg" />
-              <img src="images/GlimpAI_2.jpg" />
-              <img src="images/GlimpAI_3.jpg" />
             </div>
           </div>
           <div class="flex flex-col gap-2">
@@ -179,24 +140,22 @@
             <div>
               <h3 class="text-sm text-white">Tech Stack</h3>
               <div class="flex gap-1.5 mt-1">
-                <span class="rounded-full py-1 px-3 bg-red-600 text-white">Laravel</span
-                ><span class="rounded-full py-1 px-3 bg-emerald-700 text-white">Vue</span
-                ><span class="rounded-full py-1 px-3 bg-lime-700 text-white">Node.js</span
-                ><span class="rounded-full py-1 px-3 bg-white text-gray-600">Element.UI </span
-                ><span class="rounded-full py-1 px-3 bg-white text-gray-600">Socket.io </span>
-              </div>
-            </div>
-            <h3 class="text-sm text-white">Preview</h3>
-            <div class="flex gap-1.5">
-              <div class="w-full">
-                <video controls>
-                  <source src="videos/College_StudentMonitoringSystem.mp4" type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
+                <span class="rounded-full py-1 px-3 bg-red-600 text-white text-xs font-semibold"
+                  >Laravel</span
+                ><span
+                  class="rounded-full py-1 px-3 bg-emerald-700 text-white text-xs font-semibold"
+                  >Vue</span
+                ><span class="rounded-full py-1 px-3 bg-lime-700 text-white text-xs font-semibold"
+                  >Node.js</span
+                ><span class="rounded-full py-1 px-3 bg-white text-gray-600 text-xs font-semibold"
+                  >Element.UI </span
+                ><span class="rounded-full py-1 px-3 bg-white text-gray-600 text-xs font-semibold"
+                  >Socket.io
+                </span>
               </div>
             </div>
           </div>
-          <a href="/projects" class="text-white font-medium">&gt; See all Projects</a>
+          <a href="/projects.html" class="text-white font-medium">&gt; See all Projects</a>
           <div id="links">
             <h1 class="block text-lg font-bold text-white mt-3 mb-1">Links</h1>
             <div class="flex flex-col text-white">
